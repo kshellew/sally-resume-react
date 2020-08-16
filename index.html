@@ -22,13 +22,49 @@
     function App() {
   return (
     <div>
-      <h1>Hello, everyone!</h1>
-      <p>We think</p>
-      <ul>
-        <li>React</li>
-        <li>is</li>
-        <li>brilliant!</li>
-      </ul>
+      <div>
+        <header>
+          <h1 className="title">Sally Student</h1>
+          <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="picture of sally" width="100" />
+        </header>
+      </div>
+      <div>
+        <section id="Contact-section">
+          <h3>Contact Information</h3>
+          <p>My contact information: </p>
+          <address id="Contact-info">
+              <a href="mailto:sallystudent@example.com">sallystudent@example.com</a><br />
+              <a href="tel:+12228675309">(222) 867-5309</a>
+          </address>
+        </section>
+      </div>
+      <div>
+        <section id="Education">
+          <h3>Education</h3>
+          <p>I have studied at:</p>
+          <p> 2000 - 2004 University of Maryland, BS in Biology</p>
+        </section>
+      </div>
+      <div>
+        <section id="works">
+        <h3>Work history</h3>
+        <p>I have worked at:</p>
+        <div id="works_list">
+            <p> ABC Company </p>
+                <ul>
+                    <li> Sales Manager </li>
+                    <li> 2010 - Present </li>
+                    <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                </ul>
+            <p> Widgets R US </p>
+                <ul>
+                    <li> Sales Associate </li>
+                    <li> 2004 - 2010 </li>
+                    <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                </ul>
+        </div>
+    </section>
+      </div>
     </div>
   );
 };
